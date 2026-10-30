@@ -1,49 +1,128 @@
 {
- "updated": "2026-10-30T20:07:07Z",
+ "updated": "2026-10-30T20:18:06Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
   {
    "label": "Strategy A",
    "pnl": 4.77,
+   "realized": 4.77,
+   "unrealized": 0.0,
    "open": 20,
-   "closed": 1
+   "closed": 1,
+   "wins": 1,
+   "losses": 0,
+   "flat": 0,
+   "win_rate": 1.0,
+   "avg_trade": 4.77,
+   "avg_win": 4.77,
+   "avg_loss": null,
+   "profit_factor": null
   },
   {
    "label": "Strategy B",
    "pnl": 1.94,
+   "realized": 1.94,
+   "unrealized": 0.0,
    "open": 8,
-   "closed": 1
+   "closed": 1,
+   "wins": 1,
+   "losses": 0,
+   "flat": 0,
+   "win_rate": 1.0,
+   "avg_trade": 1.94,
+   "avg_win": 1.94,
+   "avg_loss": null,
+   "profit_factor": null
   },
   {
    "label": "Strategy C",
    "pnl": -56.0,
+   "realized": -56.0,
+   "unrealized": 0.0,
    "open": 60,
-   "closed": 8
+   "closed": 8,
+   "wins": 2,
+   "losses": 6,
+   "flat": 0,
+   "win_rate": 0.25,
+   "avg_trade": -7.0,
+   "avg_win": 0.42,
+   "avg_loss": -9.47,
+   "profit_factor": 0.01
   },
   {
    "label": "Strategy D",
    "pnl": -396.46,
+   "realized": 8.8,
+   "unrealized": -405.26,
    "open": 12,
-   "closed": 0
+   "closed": 34,
+   "wins": 17,
+   "losses": 0,
+   "flat": 17,
+   "win_rate": 1.0,
+   "avg_trade": 0.26,
+   "avg_win": 0.52,
+   "avg_loss": null,
+   "profit_factor": null
   },
   {
    "label": "Strategy E",
    "pnl": 0.0,
+   "realized": 0,
+   "unrealized": 0.0,
    "open": 6,
-   "closed": 0
+   "closed": 0,
+   "wins": 0,
+   "losses": 0,
+   "flat": 0,
+   "win_rate": null,
+   "avg_trade": null,
+   "avg_win": null,
+   "avg_loss": null,
+   "profit_factor": null
   },
   {
    "label": "Strategy F",
    "pnl": -0.65,
+   "realized": 0,
+   "unrealized": -0.65,
    "open": 2,
-   "closed": 0
+   "closed": 0,
+   "wins": 0,
+   "losses": 0,
+   "flat": 0,
+   "win_rate": null,
+   "avg_trade": null,
+   "avg_win": null,
+   "avg_loss": null,
+   "profit_factor": null
   },
   {
    "label": "Strategy G",
    "pnl": 0.0,
+   "realized": 0,
+   "unrealized": 0.0,
    "open": 26,
-   "closed": 0
+   "closed": 0,
+   "wins": 0,
+   "losses": 0,
+   "flat": 0,
+   "win_rate": null,
+   "avg_trade": null,
+   "avg_win": null,
+   "avg_loss": null,
+   "profit_factor": null
+  }
+ ],
+ "daily_realized": [
+  {
+   "d": "2026-10-30",
+   "Strategy A": 4.77,
+   "Strategy B": 1.94,
+   "Strategy C": -56.0,
+   "Strategy D": 8.8
   }
  ],
  "history": [
@@ -119,6 +198,16 @@
   },
   {
    "t": "2026-10-30T20:07:07Z",
+   "Strategy A": 4.77,
+   "Strategy B": 1.94,
+   "Strategy C": -56.0,
+   "Strategy D": -396.46,
+   "Strategy E": 0.0,
+   "Strategy F": -0.65,
+   "Strategy G": 0.0
+  },
+  {
+   "t": "2026-10-30T20:18:06Z",
    "Strategy A": 4.77,
    "Strategy B": 1.94,
    "Strategy C": -56.0,
