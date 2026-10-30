@@ -10,30 +10,98 @@
 </head>
 <body>
 <main>
-  <header>
-    <h1>Paper trading results</h1>
-    <p class="sub">Hypothetical P&amp;L per strategy. No real money is traded.</p>
+  <header class="top">
+    <div>
+      <h1>Paper trading results</h1>
+      <p class="sub">Hypothetical P&amp;L per strategy. No real money is traded.</p>
+    </div>
     <p class="meta" id="meta">Loading…</p>
   </header>
 
-  <section class="tiles" id="tiles" aria-label="Totals"></section>
+  <section class="tiles" id="tiles" aria-label="Portfolio totals"></section>
 
   <section>
-    <h2>P&amp;L over time</h2>
-    <div id="chart" class="chart" role="img" aria-label="Cumulative P&L per strategy over time"></div>
-    <div id="legend" class="legend"></div>
+    <div class="head">
+      <h2>Portfolio P&amp;L</h2>
+      <p class="hint">Sum of all strategies, hourly. The lower panel shows the drop from the running peak.</p>
+    </div>
+    <div class="panel">
+      <div id="equity" class="chart" role="img" aria-label="Total P&L over time"></div>
+      <div id="drawdown" class="chart small" role="img" aria-label="Drawdown from peak over time"></div>
+    </div>
   </section>
 
   <section>
-    <h2>By strategy</h2>
-    <table>
-      <thead><tr><th>Strategy</th><th class="num">P&amp;L</th><th class="num">Open</th><th class="num">Closed</th></tr></thead>
-      <tbody id="rows"></tbody>
-    </table>
+    <div class="head">
+      <h2>Strategies</h2>
+      <p class="hint">Realized is closed trades. Open is what open positions are currently worth.</p>
+    </div>
+    <div class="cards" id="cards"></div>
   </section>
 
-  <footer id="note"></footer>
+  <section>
+    <div class="head">
+      <h2>P&amp;L by strategy over time</h2>
+      <p class="hint">Click a name to show or hide it.</p>
+    </div>
+    <div class="panel">
+      <div id="multi" class="chart" role="img" aria-label="P&L per strategy over time"></div>
+      <div id="legend" class="legend"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <h2>Daily P&amp;L</h2>
+      <p class="hint">Change in total P&amp;L for each UTC day, including open positions.</p>
+    </div>
+    <div class="panel">
+      <div id="daily" class="chart small" role="img" aria-label="Daily change in total P&L"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <h2>Comparison</h2>
+      <p class="hint">Click a column to sort.</p>
+    </div>
+    <div class="scroll">
+      <table id="compare">
+        <thead><tr>
+          <th data-k="label">Strategy</th>
+          <th class="num" data-k="pnl">P&amp;L</th>
+          <th class="num" data-k="realized">Realized</th>
+          <th class="num" data-k="unrealized">Open</th>
+          <th class="num" data-k="max_dd">Max drawdown</th>
+          <th class="num" data-k="closed">Closed</th>
+          <th class="num" data-k="open">Open pos.</th>
+          <th class="num" data-k="win_rate">Win rate</th>
+          <th class="num" data-k="avg_trade">Avg trade</th>
+          <th class="num" data-k="avg_win">Avg win</th>
+          <th class="num" data-k="avg_loss">Avg loss</th>
+          <th class="num" data-k="profit_factor">Profit factor</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="head">
+      <h2>Realized P&amp;L by day</h2>
+      <p class="hint">Closed trades only, grouped by the UTC day they closed.</p>
+    </div>
+    <div class="scroll">
+      <table id="dailytable"><thead></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <footer>
+    <p id="note"></p>
+    <p>Win rate counts winning and losing closed trades and leaves out breakeven ones. Profit factor is gross wins divided by gross losses. The page refreshes itself every 5 minutes, and new numbers arrive hourly.</p>
+  </footer>
 </main>
+<div id="tip" class="tip" hidden></div>
 <script src="app.js"></script>
 </body>
 </html>
