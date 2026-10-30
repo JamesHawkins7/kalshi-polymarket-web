@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Paper Trading Results</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Paper trading results</h1>
+    <p class="sub">Hypothetical P&amp;L per strategy. No real money is traded.</p>
+    <p class="meta" id="meta">Loading…</p>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="Totals"></section>
+
+  <section>
+    <h2>P&amp;L over time</h2>
+    <div id="chart" class="chart" role="img" aria-label="Cumulative P&L per strategy over time"></div>
+    <div id="legend" class="legend"></div>
+  </section>
+
+  <section>
+    <h2>By strategy</h2>
+    <table>
+      <thead><tr><th>Strategy</th><th class="num">P&amp;L</th><th class="num">Open</th><th class="num">Closed</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+
+  <footer id="note"></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

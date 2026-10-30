@@ -1,0 +1,71 @@
+{
+ "updated": "2026-10-30T16:22:44Z",
+ "period_start": "2026-10-30T14:55:00Z",
+ "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
+ "strategies": [
+  {
+   "label": "Strategy A",
+   "pnl": 0.0,
+   "open": 20,
+   "closed": 0
+  },
+  {
+   "label": "Strategy B",
+   "pnl": 0.0,
+   "open": 3,
+   "closed": 0
+  },
+  {
+   "label": "Strategy C",
+   "pnl": 0.0,
+   "open": 30,
+   "closed": 0
+  },
+  {
+   "label": "Strategy D",
+   "pnl": -91.66,
+   "open": 3,
+   "closed": 0
+  },
+  {
+   "label": "Strategy E",
+   "pnl": 0.0,
+   "open": 3,
+   "closed": 0
+  },
+  {
+   "label": "Strategy F",
+   "pnl": -0.39,
+   "open": 1,
+   "closed": 0
+  },
+  {
+   "label": "Strategy G",
+   "pnl": 0.0,
+   "open": 24,
+   "closed": 0
+  }
+ ],
+ "history": [
+  {
+   "t": "2026-10-30T16:22:00Z",
+   "Strategy A": 0.0,
+   "Strategy B": 0.0,
+   "Strategy C": 0.0,
+   "Strategy D": -91.66,
+   "Strategy E": 0.0,
+   "Strategy F": -0.67,
+   "Strategy G": 0.0
+  },
+  {
+   "t": "2026-10-30T16:22:44Z",
+   "Strategy A": 0.0,
+   "Strategy B": 0.0,
+   "Strategy C": 0.0,
+   "Strategy D": -91.66,
+   "Strategy E": 0.0,
+   "Strategy F": -0.39,
+   "Strategy G": 0.0
+  }
+ ]
+}
