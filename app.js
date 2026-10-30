@@ -313,6 +313,18 @@
     });
     drawCompare();
 
+    // expected value of open positions (model estimate, kept apart from P&L)
+    var ev = d.expected || [], evBody = document.querySelector("#evtable tbody");
+    document.getElementById("ev-section").hidden = !ev.length;
+    evBody.textContent = "";
+    ev.forEach(function (r) {
+      var tr = el("tr");
+      tr.appendChild(el("td", null, r.label));
+      tr.appendChild(el("td", { "class": "num" }, num(r.open)));
+      tr.appendChild(el("td", { "class": "num " + cls(r.ev_open) }, usd(r.ev_open, true)));
+      evBody.appendChild(tr);
+    });
+
     // realized by day table
     var daily = (d.daily_realized || []).slice().reverse();
     var used = labels.filter(function (l) { return daily.some(function (r) { return r[l] != null; }); });

@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Paper Trading Results</title>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <main>
@@ -37,6 +37,23 @@
       <p class="hint">Realized is closed trades. Open is what open positions are currently worth.</p>
     </div>
     <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="ev-section" hidden>
+    <div class="head">
+      <h2>Expected value of open positions</h2>
+      <p class="hint">Model estimate, not results. Only strategies that hold positions until the market settles and estimate their value show here. These numbers are not included in any P&amp;L above.</p>
+    </div>
+    <div class="scroll">
+      <table id="evtable">
+        <thead><tr>
+          <th>Strategy</th>
+          <th class="num">Open pos.</th>
+          <th class="num">Expected value</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section>
@@ -102,6 +119,6 @@
   </footer>
 </main>
 <div id="tip" class="tip" hidden></div>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
