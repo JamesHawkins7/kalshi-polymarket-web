@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:07:07Z",
+ "updated": "2026-10-31T19:07:07Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -21,19 +21,19 @@
   },
   {
    "label": "Strategy B",
-   "pnl": -4.32,
-   "realized": -4.32,
+   "pnl": -4.57,
+   "realized": -4.57,
    "unrealized": 0.0,
-   "open": 4,
-   "closed": 8,
+   "open": 3,
+   "closed": 9,
    "wins": 2,
-   "losses": 5,
+   "losses": 6,
    "flat": 1,
-   "win_rate": 0.2857,
-   "avg_trade": -0.54,
+   "win_rate": 0.25,
+   "avg_trade": -0.51,
    "avg_win": 1.11,
-   "avg_loss": -1.31,
-   "profit_factor": 0.34
+   "avg_loss": -1.13,
+   "profit_factor": 0.33
   },
   {
    "label": "Strategy C",
@@ -41,21 +41,21 @@
    "realized": -199.19,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 107,
+   "closed": 108,
    "wins": 82,
    "losses": 25,
-   "flat": 0,
+   "flat": 1,
    "win_rate": 0.7664,
-   "avg_trade": -1.86,
+   "avg_trade": -1.84,
    "avg_win": 0.48,
    "avg_loss": -9.53,
    "profit_factor": 0.16
   },
   {
    "label": "Strategy D",
-   "pnl": -582.11,
+   "pnl": -566.6,
    "realized": 47.99,
-   "unrealized": -630.09,
+   "unrealized": -614.59,
    "open": 19,
    "closed": 112,
    "wins": 76,
@@ -85,9 +85,9 @@
   },
   {
    "label": "Strategy F",
-   "pnl": -2.81,
+   "pnl": -1.51,
    "realized": 0,
-   "unrealized": -2.81,
+   "unrealized": -1.51,
    "open": 5,
    "closed": 0,
    "wins": 0,
@@ -139,7 +139,7 @@
   {
    "d": "2026-10-31",
    "Strategy A": 0.0,
-   "Strategy B": 0.0,
+   "Strategy B": -0.25,
    "Strategy C": -74.75,
    "Strategy D": 29.65,
    "Strategy G": -28.48
@@ -464,6 +464,16 @@
    "Strategy D": -582.11,
    "Strategy E": 0.0,
    "Strategy F": -2.81,
+   "Strategy G": -28.48
+  },
+  {
+   "t": "2026-10-31T19:07:07Z",
+   "Strategy A": 4.75,
+   "Strategy B": -4.57,
+   "Strategy C": -199.19,
+   "Strategy D": -566.6,
+   "Strategy E": 0.0,
+   "Strategy F": -1.51,
    "Strategy G": -28.48
   }
  ]
