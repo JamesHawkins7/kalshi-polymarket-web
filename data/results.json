@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:07:07Z",
+ "updated": "2026-11-01T02:07:07Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -37,32 +37,32 @@
   },
   {
    "label": "Strategy C",
-   "pnl": -202.24,
-   "realized": -202.24,
+   "pnl": -201.78,
+   "realized": -201.78,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 126,
-   "wins": 97,
+   "closed": 127,
+   "wins": 98,
    "losses": 26,
    "flat": 3,
-   "win_rate": 0.7886,
-   "avg_trade": -1.61,
+   "win_rate": 0.7903,
+   "avg_trade": -1.59,
    "avg_win": 0.47,
    "avg_loss": -9.53,
-   "profit_factor": 0.18
+   "profit_factor": 0.19
   },
   {
    "label": "Strategy D",
-   "pnl": -718.41,
-   "realized": 56.24,
-   "unrealized": -774.65,
+   "pnl": -724.28,
+   "realized": 56.59,
+   "unrealized": -780.87,
    "open": 20,
-   "closed": 131,
-   "wins": 91,
+   "closed": 134,
+   "wins": 92,
    "losses": 0,
-   "flat": 40,
+   "flat": 42,
    "win_rate": 1.0,
-   "avg_trade": 0.43,
+   "avg_trade": 0.42,
    "avg_win": 0.62,
    "avg_loss": null,
    "profit_factor": null
@@ -146,7 +146,8 @@
   },
   {
    "d": "2026-11-01",
-   "Strategy D": 7.07
+   "Strategy C": 0.46,
+   "Strategy D": 7.41
   }
  ],
  "history": [
@@ -536,6 +537,16 @@
    "Strategy B": -2.27,
    "Strategy C": -202.24,
    "Strategy D": -718.41,
+   "Strategy E": 0.0,
+   "Strategy F": -1.03,
+   "Strategy G": -28.48
+  },
+  {
+   "t": "2026-11-01T02:07:07Z",
+   "Strategy A": 4.75,
+   "Strategy B": -2.27,
+   "Strategy C": -201.78,
+   "Strategy D": -724.28,
    "Strategy E": 0.0,
    "Strategy F": -1.03,
    "Strategy G": -28.48
