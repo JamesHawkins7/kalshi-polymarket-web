@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T17:07:07Z",
+ "updated": "2026-11-02T18:07:07Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -37,33 +37,33 @@
   },
   {
    "label": "Strategy C",
-   "pnl": -432.79,
-   "realized": -432.79,
+   "pnl": -441.36,
+   "realized": -441.36,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 252,
-   "wins": 192,
-   "losses": 55,
+   "closed": 255,
+   "wins": 194,
+   "losses": 56,
    "flat": 5,
-   "win_rate": 0.7773,
-   "avg_trade": -1.72,
+   "win_rate": 0.776,
+   "avg_trade": -1.73,
    "avg_win": 0.48,
    "avg_loss": -9.53,
    "profit_factor": 0.17
   },
   {
    "label": "Strategy D",
-   "pnl": -872.82,
-   "realized": -585.03,
-   "unrealized": -287.79,
-   "open": 19,
-   "closed": 291,
-   "wins": 197,
+   "pnl": -855.77,
+   "realized": -584.93,
+   "unrealized": -270.84,
+   "open": 20,
+   "closed": 292,
+   "wins": 198,
    "losses": 11,
    "flat": 83,
-   "win_rate": 0.9471,
-   "avg_trade": -2.01,
-   "avg_win": 1.38,
+   "win_rate": 0.9474,
+   "avg_trade": -2.0,
+   "avg_win": 1.37,
    "avg_loss": -77.84,
    "profit_factor": 0.32
   },
@@ -85,9 +85,9 @@
   },
   {
    "label": "Strategy F",
-   "pnl": -5.09,
+   "pnl": -7.05,
    "realized": 0,
-   "unrealized": -5.09,
+   "unrealized": -7.05,
    "open": 5,
    "closed": 0,
    "wins": 0,
@@ -104,7 +104,7 @@
    "pnl": -30.68,
    "realized": -30.68,
    "unrealized": 0.0,
-   "open": 27,
+   "open": 28,
    "closed": 42,
    "wins": 10,
    "losses": 32,
@@ -124,8 +124,8 @@
   },
   {
    "label": "Strategy G",
-   "open": 27,
-   "ev_open": 52.64
+   "open": 28,
+   "ev_open": 54.36
   }
  ],
  "daily_realized": [
@@ -156,8 +156,8 @@
    "d": "2026-11-02",
    "Strategy A": 0.0,
    "Strategy B": -1.65,
-   "Strategy C": -116.04,
-   "Strategy D": -585.26,
+   "Strategy C": -124.61,
+   "Strategy D": -585.17,
    "Strategy G": 20.92
   }
  ],
@@ -950,6 +950,16 @@
    "Strategy D": -872.82,
    "Strategy E": 0.0,
    "Strategy F": -5.09,
+   "Strategy G": -30.68
+  },
+  {
+   "t": "2026-11-02T18:07:07Z",
+   "Strategy A": 4.75,
+   "Strategy B": -5.62,
+   "Strategy C": -441.36,
+   "Strategy D": -855.77,
+   "Strategy E": 0.0,
+   "Strategy F": -7.05,
    "Strategy G": -30.68
   }
  ]
