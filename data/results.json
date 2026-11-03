@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:07:07Z",
+ "updated": "2026-11-03T13:07:07Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -37,31 +37,31 @@
   },
   {
    "label": "Strategy C",
-   "pnl": -515.28,
-   "realized": -515.28,
+   "pnl": -514.27,
+   "realized": -514.27,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 316,
-   "wins": 239,
+   "closed": 318,
+   "wins": 241,
    "losses": 66,
    "flat": 11,
-   "win_rate": 0.7836,
-   "avg_trade": -1.63,
+   "win_rate": 0.785,
+   "avg_trade": -1.62,
    "avg_win": 0.48,
    "avg_loss": -9.53,
    "profit_factor": 0.18
   },
   {
    "label": "Strategy D",
-   "pnl": -905.62,
-   "realized": -653.98,
-   "unrealized": -251.65,
+   "pnl": -882.87,
+   "realized": -653.67,
+   "unrealized": -229.2,
    "open": 21,
-   "closed": 333,
-   "wins": 232,
+   "closed": 334,
+   "wins": 233,
    "losses": 12,
    "flat": 89,
-   "win_rate": 0.9508,
+   "win_rate": 0.951,
    "avg_trade": -1.96,
    "avg_win": 1.26,
    "avg_loss": -78.94,
@@ -85,10 +85,10 @@
   },
   {
    "label": "Strategy F",
-   "pnl": -13.31,
+   "pnl": -14.23,
    "realized": 0,
-   "unrealized": -13.31,
-   "open": 7,
+   "unrealized": -14.23,
+   "open": 6,
    "closed": 0,
    "wins": 0,
    "losses": 0,
@@ -101,19 +101,19 @@
   },
   {
    "label": "Strategy G",
-   "pnl": -30.68,
-   "realized": -30.68,
+   "pnl": -40.73,
+   "realized": -40.73,
    "unrealized": 0.0,
-   "open": 28,
-   "closed": 42,
-   "wins": 10,
-   "losses": 32,
+   "open": 22,
+   "closed": 48,
+   "wins": 11,
+   "losses": 37,
    "flat": 0,
-   "win_rate": 0.2381,
-   "avg_trade": -0.73,
-   "avg_win": 5.14,
-   "avg_loss": -2.56,
-   "profit_factor": 0.63
+   "win_rate": 0.2292,
+   "avg_trade": -0.85,
+   "avg_win": 5.08,
+   "avg_loss": -2.61,
+   "profit_factor": 0.58
   }
  ],
  "expected": [
@@ -124,8 +124,8 @@
   },
   {
    "label": "Strategy G",
-   "open": 28,
-   "ev_open": 54.36
+   "open": 22,
+   "ev_open": 44.17
   }
  ],
  "daily_realized": [
@@ -164,8 +164,9 @@
    "d": "2026-11-03",
    "Strategy A": 0.0,
    "Strategy B": -0.25,
-   "Strategy C": -12.51,
-   "Strategy D": 15.47
+   "Strategy C": -11.5,
+   "Strategy D": 15.78,
+   "Strategy G": -10.05
   }
  ],
  "history": [
@@ -1148,6 +1149,16 @@
    "Strategy E": 0.0,
    "Strategy F": -13.31,
    "Strategy G": -30.68
+  },
+  {
+   "t": "2026-11-03T13:07:07Z",
+   "Strategy A": 4.75,
+   "Strategy B": -7.28,
+   "Strategy C": -514.27,
+   "Strategy D": -882.87,
+   "Strategy E": 0.0,
+   "Strategy F": -14.23,
+   "Strategy G": -40.73
   }
  ]
 }
