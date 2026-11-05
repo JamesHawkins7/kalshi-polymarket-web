@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:07:07Z",
+ "updated": "2026-11-05T12:07:07Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -85,9 +85,9 @@
   },
   {
    "label": "Strategy F",
-   "pnl": -19.39,
+   "pnl": -18.39,
    "realized": -1.58,
-   "unrealized": -17.81,
+   "unrealized": -16.82,
    "open": 9,
    "closed": 2,
    "wins": 0,
@@ -1632,6 +1632,16 @@
    "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -19.39,
+   "Strategy G": -61.15
+  },
+  {
+   "t": "2026-11-05T12:07:07Z",
+   "Strategy A": 10.58,
+   "Strategy B": -9.72,
+   "Strategy C": -822.01,
+   "Strategy D": 279.4,
+   "Strategy E": 0.0,
+   "Strategy F": -18.39,
    "Strategy G": -61.15
   }
  ]
