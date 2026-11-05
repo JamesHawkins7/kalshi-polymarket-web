@@ -1,0 +1,62 @@
+# Deploys the static site to GitHub Pages with a longer timeout and one retry.
+# GitHub's built-in "pages build and deployment" run gives up after 10 minutes
+# when Pages gets stuck in "updating_pages", which leaves the site an hour stale
+# and sends a failure email. This workflow replaces it once the repository's
+# Pages source is set to "GitHub Actions" (Settings > Pages > Build and deployment).
+# Until then it detects the old branch-based setting and does nothing.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Each export is a full snapshot, so a newer push can replace an older queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.retry.outputs.page_url || steps.first.outputs.page_url }}
+    steps:
+      - name: Check Pages source
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build_type=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type || echo unknown)
+          echo "Pages build_type: $build_type"
+          echo "build_type=$build_type" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.mode.outputs.build_type == 'workflow'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.mode.outputs.build_type == 'workflow'
+        with:
+          path: .
+
+      - name: Deploy
+        id: first
+        if: steps.mode.outputs.build_type == 'workflow'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 1200000
+
+      - name: Retry deploy
+        id: retry
+        if: steps.mode.outputs.build_type == 'workflow' && steps.first.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
