@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-05T19:07:07Z",
+ "updated": "2026-11-05T20:01:02Z",
  "period_start": "2026-10-30T14:55:00Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
   {
    "label": "Strategy A",
-   "pnl": 10.33,
-   "realized": 10.33,
+   "pnl": 7.89,
+   "realized": 7.89,
    "unrealized": 0.0,
    "open": 20,
-   "closed": 124,
+   "closed": 125,
    "wins": 2,
-   "losses": 3,
+   "losses": 4,
    "flat": 119,
-   "win_rate": 0.4,
-   "avg_trade": 0.08,
+   "win_rate": 0.3333,
+   "avg_trade": 0.06,
    "avg_win": 5.61,
-   "avg_loss": -0.3,
-   "profit_factor": 12.61
+   "avg_loss": -0.83,
+   "profit_factor": 3.37
   },
   {
    "label": "Strategy B",
@@ -37,35 +37,35 @@
   },
   {
    "label": "Strategy C",
-   "pnl": -971.02,
-   "realized": -971.02,
+   "pnl": -990.43,
+   "realized": -990.43,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 593,
+   "closed": 595,
    "wins": 457,
-   "losses": 125,
+   "losses": 127,
    "flat": 11,
-   "win_rate": 0.7852,
-   "avg_trade": -1.64,
+   "win_rate": 0.7825,
+   "avg_trade": -1.66,
    "avg_win": 0.47,
    "avg_loss": -9.48,
    "profit_factor": 0.18
   },
   {
    "label": "Strategy D",
-   "pnl": 279.4,
-   "realized": 279.4,
+   "pnl": -452.1,
+   "realized": -452.1,
    "unrealized": 0.0,
    "open": 0,
    "closed": 442,
-   "wins": 306,
-   "losses": 31,
-   "flat": 105,
-   "win_rate": 0.908,
-   "avg_trade": 0.63,
-   "avg_win": 6.31,
-   "avg_loss": -53.26,
-   "profit_factor": 1.17
+   "wins": 5,
+   "losses": 36,
+   "flat": 401,
+   "win_rate": 0.122,
+   "avg_trade": -1.02,
+   "avg_win": 300.24,
+   "avg_loss": -54.26,
+   "profit_factor": 0.77
   },
   {
    "label": "Strategy E",
@@ -85,9 +85,9 @@
   },
   {
    "label": "Strategy F",
-   "pnl": -9.7,
+   "pnl": -9.65,
    "realized": -2.39,
-   "unrealized": -7.31,
+   "unrealized": -7.27,
    "open": 5,
    "closed": 6,
    "wins": 1,
@@ -134,14 +134,14 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": 18.34
+   "Strategy D": 0.0
   },
   {
    "d": "2026-10-31",
    "Strategy A": 0.0,
    "Strategy B": 2.05,
    "Strategy C": -77.8,
-   "Strategy D": 30.83,
+   "Strategy D": 0.0,
    "Strategy G": -28.48
   },
   {
@@ -149,7 +149,7 @@
    "Strategy A": 0.0,
    "Strategy B": -1.7,
    "Strategy C": -114.51,
-   "Strategy D": -48.94,
+   "Strategy D": -148.78,
    "Strategy G": -23.11
   },
   {
@@ -157,7 +157,7 @@
    "Strategy A": 0.0,
    "Strategy B": -3.06,
    "Strategy C": -186.02,
-   "Strategy D": -669.68,
+   "Strategy D": -886.13,
    "Strategy G": 20.92
   },
   {
@@ -165,7 +165,7 @@
    "Strategy A": 6.45,
    "Strategy B": 0.87,
    "Strategy C": -214.16,
-   "Strategy D": 7.68,
+   "Strategy D": -15.98,
    "Strategy F": -1.58,
    "Strategy G": -20.0
   },
@@ -173,14 +173,14 @@
    "d": "2026-11-04",
    "Strategy A": -0.62,
    "Strategy C": -106.44,
-   "Strategy D": 941.16,
+   "Strategy D": 598.79,
    "Strategy G": -10.47
   },
   {
    "d": "2026-11-05",
-   "Strategy A": -0.25,
+   "Strategy A": -2.69,
    "Strategy B": -2.22,
-   "Strategy C": -147.64,
+   "Strategy C": -167.05,
    "Strategy F": -0.81,
    "Strategy G": -13.24
   }
@@ -191,7 +191,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": 0.0,
-   "Strategy D": -91.66,
    "Strategy E": 0.0,
    "Strategy F": -0.67,
    "Strategy G": 0.0
@@ -201,7 +200,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": 0.0,
-   "Strategy D": -91.66,
    "Strategy E": 0.0,
    "Strategy F": -0.39,
    "Strategy G": 0.0
@@ -211,7 +209,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": 0.0,
-   "Strategy D": -91.66,
    "Strategy E": 0.0,
    "Strategy F": -0.39,
    "Strategy G": 0.0
@@ -221,7 +218,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": 0.0,
-   "Strategy D": -91.66,
    "Strategy E": 0.0,
    "Strategy F": -0.39,
    "Strategy G": 0.0
@@ -231,7 +227,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": 0.0,
-   "Strategy D": -40.85,
    "Strategy E": 0.0,
    "Strategy F": -0.39,
    "Strategy G": 0.0
@@ -241,7 +236,6 @@
    "Strategy A": 0.0,
    "Strategy B": 0.0,
    "Strategy C": -27.79,
-   "Strategy D": -164.98,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -251,7 +245,6 @@
    "Strategy A": 4.77,
    "Strategy B": 0.0,
    "Strategy C": -27.79,
-   "Strategy D": -155.05,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -261,7 +254,6 @@
    "Strategy A": 4.77,
    "Strategy B": 1.94,
    "Strategy C": -56.0,
-   "Strategy D": -396.46,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -271,7 +263,6 @@
    "Strategy A": 4.77,
    "Strategy B": 1.94,
    "Strategy C": -56.0,
-   "Strategy D": -396.46,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -281,7 +272,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -55.73,
-   "Strategy D": -421.27,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -291,7 +281,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -55.73,
-   "Strategy D": -421.27,
    "Strategy E": 0.0,
    "Strategy F": -0.65,
    "Strategy G": 0.0
@@ -301,7 +290,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -109.82,
-   "Strategy D": -432.79,
    "Strategy E": 0.0,
    "Strategy F": -0.52,
    "Strategy G": 0.0
@@ -311,7 +299,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -126.2,
-   "Strategy D": -471.24,
    "Strategy E": 0.0,
    "Strategy F": -0.52,
    "Strategy G": 0.0
@@ -321,7 +308,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -457.3,
    "Strategy E": 0.0,
    "Strategy F": -0.52,
    "Strategy G": 0.0
@@ -331,7 +317,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -457.77,
    "Strategy E": 0.0,
    "Strategy F": -0.52,
    "Strategy G": 0.0
@@ -341,7 +326,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -496.94,
    "Strategy E": 0.0,
    "Strategy F": -0.54,
    "Strategy G": 0.0
@@ -351,7 +335,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -452.35,
    "Strategy E": 0.0,
    "Strategy F": -0.54,
    "Strategy G": 0.0
@@ -361,7 +344,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -472.18,
    "Strategy E": 0.0,
    "Strategy F": -0.72,
    "Strategy G": 0.0
@@ -371,7 +353,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -454.92,
    "Strategy E": 0.0,
    "Strategy F": -0.9,
    "Strategy G": 0.0
@@ -381,7 +362,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -463.46,
    "Strategy E": 0.0,
    "Strategy F": -0.99,
    "Strategy G": 0.0
@@ -391,7 +371,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -465.27,
    "Strategy E": 0.0,
    "Strategy F": -0.98,
    "Strategy G": 0.0
@@ -401,7 +380,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -460.49,
    "Strategy E": 0.0,
    "Strategy F": -0.61,
    "Strategy G": 0.0
@@ -411,7 +389,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -456.76,
    "Strategy E": 0.0,
    "Strategy F": -1.43,
    "Strategy G": 0.0
@@ -421,7 +398,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -449.15,
    "Strategy E": 0.0,
    "Strategy F": -1.43,
    "Strategy G": 0.0
@@ -431,7 +407,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -124.44,
-   "Strategy D": -466.11,
    "Strategy E": 0.0,
    "Strategy F": -2.25,
    "Strategy G": 0.0
@@ -441,7 +416,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -140.98,
-   "Strategy D": -468.16,
    "Strategy E": 0.0,
    "Strategy F": -2.14,
    "Strategy G": -12.25
@@ -451,7 +425,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -147.38,
-   "Strategy D": -466.01,
    "Strategy E": 0.0,
    "Strategy F": -2.14,
    "Strategy G": -16.65
@@ -461,7 +434,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -147.38,
-   "Strategy D": -449.86,
    "Strategy E": 0.0,
    "Strategy F": -2.06,
    "Strategy G": -22.96
@@ -471,7 +443,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -147.38,
-   "Strategy D": -497.61,
    "Strategy E": 0.0,
    "Strategy F": -2.03,
    "Strategy G": -22.96
@@ -481,7 +452,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -156.68,
-   "Strategy D": -488.77,
    "Strategy E": 0.0,
    "Strategy F": -2.08,
    "Strategy G": -28.48
@@ -491,7 +461,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -200.77,
-   "Strategy D": -544.42,
    "Strategy E": 0.0,
    "Strategy F": -2.16,
    "Strategy G": -28.48
@@ -501,7 +470,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.32,
    "Strategy C": -199.19,
-   "Strategy D": -582.11,
    "Strategy E": 0.0,
    "Strategy F": -2.81,
    "Strategy G": -28.48
@@ -511,7 +479,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.57,
    "Strategy C": -199.19,
-   "Strategy D": -566.6,
    "Strategy E": 0.0,
    "Strategy F": -1.51,
    "Strategy G": -28.48
@@ -521,7 +488,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.57,
    "Strategy C": -199.19,
-   "Strategy D": -544.93,
    "Strategy E": 0.0,
    "Strategy F": -1.41,
    "Strategy G": -28.48
@@ -531,7 +497,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.57,
    "Strategy C": -199.19,
-   "Strategy D": -335.97,
    "Strategy E": 0.0,
    "Strategy F": -1.35,
    "Strategy G": -28.48
@@ -541,7 +506,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.57,
    "Strategy C": -202.24,
-   "Strategy D": -453.31,
    "Strategy E": 0.0,
    "Strategy F": -1.16,
    "Strategy G": -28.48
@@ -551,7 +515,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -202.24,
-   "Strategy D": -519.65,
    "Strategy E": 0.0,
    "Strategy F": -1.04,
    "Strategy G": -28.48
@@ -561,7 +524,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -202.24,
-   "Strategy D": -508.67,
    "Strategy E": 0.0,
    "Strategy F": -1.03,
    "Strategy G": -28.48
@@ -571,7 +533,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -202.24,
-   "Strategy D": -718.41,
    "Strategy E": 0.0,
    "Strategy F": -1.03,
    "Strategy G": -28.48
@@ -581,7 +542,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -201.78,
-   "Strategy D": -724.28,
    "Strategy E": 0.0,
    "Strategy F": -1.03,
    "Strategy G": -28.48
@@ -591,7 +551,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -201.78,
-   "Strategy D": -706.9,
    "Strategy E": 0.0,
    "Strategy F": -1.01,
    "Strategy G": -28.48
@@ -601,7 +560,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -201.78,
-   "Strategy D": -706.84,
    "Strategy E": 0.0,
    "Strategy F": -0.59,
    "Strategy G": -28.48
@@ -611,7 +569,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -211.08,
-   "Strategy D": -698.61,
    "Strategy E": 0.0,
    "Strategy F": -0.59,
    "Strategy G": -28.48
@@ -621,7 +578,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -694.15,
    "Strategy E": 0.0,
    "Strategy F": -0.49,
    "Strategy G": -28.48
@@ -631,7 +587,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -692.56,
    "Strategy E": 0.0,
    "Strategy F": -0.38,
    "Strategy G": -28.48
@@ -641,7 +596,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -691.6,
    "Strategy E": 0.0,
    "Strategy F": -0.38,
    "Strategy G": -28.48
@@ -651,7 +605,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -702.47,
    "Strategy E": 0.0,
    "Strategy F": -0.38,
    "Strategy G": -28.48
@@ -661,7 +614,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -724.39,
    "Strategy E": 0.0,
    "Strategy F": -0.63,
    "Strategy G": -28.48
@@ -671,7 +623,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -762.56,
    "Strategy E": 0.0,
    "Strategy F": -0.63,
    "Strategy G": -28.48
@@ -681,7 +632,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -210.43,
-   "Strategy D": -733.57,
    "Strategy E": 0.0,
    "Strategy F": -0.57,
    "Strategy G": -28.48
@@ -691,7 +641,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -226.05,
-   "Strategy D": -851.86,
    "Strategy E": 0.0,
    "Strategy F": -0.43,
    "Strategy G": -38.25
@@ -701,7 +650,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -227.63,
-   "Strategy D": -683.49,
    "Strategy E": 0.0,
    "Strategy F": -1.2,
    "Strategy G": -42.65
@@ -711,7 +659,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -225.35,
-   "Strategy D": -689.0,
    "Strategy E": 0.0,
    "Strategy F": -1.62,
    "Strategy G": -46.35
@@ -721,7 +668,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -232.17,
-   "Strategy D": -726.76,
    "Strategy E": 0.0,
    "Strategy F": -1.67,
    "Strategy G": -51.59
@@ -731,7 +677,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -231.9,
-   "Strategy D": -708.7,
    "Strategy E": 0.0,
    "Strategy F": -4.66,
    "Strategy G": -51.59
@@ -741,7 +686,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -248.42,
-   "Strategy D": -696.37,
    "Strategy E": 0.0,
    "Strategy F": -4.92,
    "Strategy G": -51.59
@@ -751,7 +695,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -247.58,
-   "Strategy D": -807.35,
    "Strategy E": 0.0,
    "Strategy F": -6.0,
    "Strategy G": -51.59
@@ -761,7 +704,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -247.58,
-   "Strategy D": -805.99,
    "Strategy E": 0.0,
    "Strategy F": -7.22,
    "Strategy G": -51.59
@@ -771,7 +713,6 @@
    "Strategy A": 4.75,
    "Strategy B": -2.27,
    "Strategy C": -257.25,
-   "Strategy D": -784.98,
    "Strategy E": 0.0,
    "Strategy F": -7.33,
    "Strategy G": -51.59
@@ -781,7 +722,6 @@
    "Strategy A": 4.75,
    "Strategy B": -3.97,
    "Strategy C": -308.92,
-   "Strategy D": -784.92,
    "Strategy E": 0.0,
    "Strategy F": -7.4,
    "Strategy G": -51.59
@@ -791,7 +731,6 @@
    "Strategy A": 4.75,
    "Strategy B": -3.97,
    "Strategy C": -316.75,
-   "Strategy D": -787.17,
    "Strategy E": 0.0,
    "Strategy F": -7.44,
    "Strategy G": -51.59
@@ -801,7 +740,6 @@
    "Strategy A": 4.75,
    "Strategy B": -3.97,
    "Strategy C": -316.75,
-   "Strategy D": -804.79,
    "Strategy E": 0.0,
    "Strategy F": -6.76,
    "Strategy G": -51.59
@@ -811,7 +749,6 @@
    "Strategy A": 4.75,
    "Strategy B": -3.97,
    "Strategy C": -316.75,
-   "Strategy D": -803.73,
    "Strategy E": 0.0,
    "Strategy F": -6.6,
    "Strategy G": -51.59
@@ -821,7 +758,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -316.75,
-   "Strategy D": -803.79,
    "Strategy E": 0.0,
    "Strategy F": -6.91,
    "Strategy G": -51.59
@@ -831,7 +767,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -316.75,
-   "Strategy D": -823.38,
    "Strategy E": 0.0,
    "Strategy F": -7.03,
    "Strategy G": -51.59
@@ -841,7 +776,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -316.75,
-   "Strategy D": -834.73,
    "Strategy E": 0.0,
    "Strategy F": -7.14,
    "Strategy G": -51.59
@@ -851,7 +785,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -316.75,
-   "Strategy D": -820.39,
    "Strategy E": 0.0,
    "Strategy F": -6.93,
    "Strategy G": -51.59
@@ -861,7 +794,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -322.57,
-   "Strategy D": -838.08,
    "Strategy E": 0.0,
    "Strategy F": -7.23,
    "Strategy G": -51.59
@@ -871,7 +803,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -322.57,
-   "Strategy D": -792.36,
    "Strategy E": 0.0,
    "Strategy F": -7.31,
    "Strategy G": -51.59
@@ -881,7 +812,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -322.57,
-   "Strategy D": -838.21,
    "Strategy E": 0.0,
    "Strategy F": -7.26,
    "Strategy G": -51.59
@@ -891,7 +821,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -322.57,
-   "Strategy D": -851.83,
    "Strategy E": 0.0,
    "Strategy F": -7.31,
    "Strategy G": -51.59
@@ -901,7 +830,6 @@
    "Strategy A": 4.75,
    "Strategy B": -4.29,
    "Strategy C": -322.57,
-   "Strategy D": -850.14,
    "Strategy E": 0.0,
    "Strategy F": -7.13,
    "Strategy G": -51.59
@@ -911,7 +839,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.55,
    "Strategy C": -322.57,
-   "Strategy D": -832.63,
    "Strategy E": 0.0,
    "Strategy F": -7.02,
    "Strategy G": -51.59
@@ -921,7 +848,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.55,
    "Strategy C": -322.57,
-   "Strategy D": -843.34,
    "Strategy E": 0.0,
    "Strategy F": -6.17,
    "Strategy G": -51.59
@@ -931,7 +857,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.55,
    "Strategy C": -418.24,
-   "Strategy D": -763.31,
    "Strategy E": 0.0,
    "Strategy F": -5.37,
    "Strategy G": -37.57
@@ -941,7 +866,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -418.24,
-   "Strategy D": -804.15,
    "Strategy E": 0.0,
    "Strategy F": -5.16,
    "Strategy G": -34.44
@@ -951,7 +875,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -418.24,
-   "Strategy D": -888.66,
    "Strategy E": 0.0,
    "Strategy F": -5.13,
    "Strategy G": -30.68
@@ -961,7 +884,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -433.69,
-   "Strategy D": -810.4,
    "Strategy E": 0.0,
    "Strategy F": -4.83,
    "Strategy G": -30.68
@@ -971,7 +893,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -432.79,
-   "Strategy D": -872.82,
    "Strategy E": 0.0,
    "Strategy F": -5.09,
    "Strategy G": -30.68
@@ -981,7 +902,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -441.36,
-   "Strategy D": -855.77,
    "Strategy E": 0.0,
    "Strategy F": -7.05,
    "Strategy G": -30.68
@@ -991,7 +911,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -440.45,
-   "Strategy D": -846.11,
    "Strategy E": 0.0,
    "Strategy F": -8.09,
    "Strategy G": -30.68
@@ -1001,7 +920,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -449.45,
-   "Strategy D": -843.1,
    "Strategy E": 0.0,
    "Strategy F": -8.06,
    "Strategy G": -30.68
@@ -1011,7 +929,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -448.33,
-   "Strategy D": -845.74,
    "Strategy E": 0.0,
    "Strategy F": -8.36,
    "Strategy G": -30.68
@@ -1021,7 +938,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -466.38,
-   "Strategy D": -849.34,
    "Strategy E": 0.0,
    "Strategy F": -8.12,
    "Strategy G": -30.68
@@ -1031,7 +947,6 @@
    "Strategy A": 4.75,
    "Strategy B": -5.62,
    "Strategy C": -486.27,
-   "Strategy D": -851.16,
    "Strategy E": 0.0,
    "Strategy F": -8.36,
    "Strategy G": -30.68
@@ -1041,7 +956,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.03,
    "Strategy C": -502.77,
-   "Strategy D": -817.43,
    "Strategy E": 0.0,
    "Strategy F": -8.36,
    "Strategy G": -30.68
@@ -1051,7 +965,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.03,
    "Strategy C": -519.27,
-   "Strategy D": -816.76,
    "Strategy E": 0.0,
    "Strategy F": -8.81,
    "Strategy G": -30.68
@@ -1061,7 +974,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.03,
    "Strategy C": -519.27,
-   "Strategy D": -849.53,
    "Strategy E": 0.0,
    "Strategy F": -8.81,
    "Strategy G": -30.68
@@ -1071,7 +983,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -519.27,
-   "Strategy D": -875.46,
    "Strategy E": 0.0,
    "Strategy F": -9.32,
    "Strategy G": -30.68
@@ -1081,7 +992,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -518.34,
-   "Strategy D": -882.04,
    "Strategy E": 0.0,
    "Strategy F": -9.43,
    "Strategy G": -30.68
@@ -1091,7 +1001,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -518.07,
-   "Strategy D": -860.8,
    "Strategy E": 0.0,
    "Strategy F": -9.61,
    "Strategy G": -30.68
@@ -1101,7 +1010,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -871.77,
    "Strategy E": 0.0,
    "Strategy F": -9.61,
    "Strategy G": -30.68
@@ -1111,7 +1019,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -860.65,
    "Strategy E": 0.0,
    "Strategy F": -9.58,
    "Strategy G": -30.68
@@ -1121,7 +1028,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -846.86,
    "Strategy E": 0.0,
    "Strategy F": -11.1,
    "Strategy G": -30.68
@@ -1131,7 +1037,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -901.56,
    "Strategy E": 0.0,
    "Strategy F": -11.09,
    "Strategy G": -30.68
@@ -1141,7 +1046,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -899.56,
    "Strategy E": 0.0,
    "Strategy F": -14.42,
    "Strategy G": -30.68
@@ -1151,7 +1055,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.78,
-   "Strategy D": -908.9,
    "Strategy E": 0.0,
    "Strategy F": -14.13,
    "Strategy G": -30.68
@@ -1161,7 +1064,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -515.28,
-   "Strategy D": -905.62,
    "Strategy E": 0.0,
    "Strategy F": -13.31,
    "Strategy G": -30.68
@@ -1171,7 +1073,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -514.27,
-   "Strategy D": -882.87,
    "Strategy E": 0.0,
    "Strategy F": -14.23,
    "Strategy G": -40.73
@@ -1181,7 +1082,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -513.71,
-   "Strategy D": -1011.56,
    "Strategy E": 0.0,
    "Strategy F": -14.52,
    "Strategy G": -43.07
@@ -1191,7 +1091,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -530.81,
-   "Strategy D": -956.38,
    "Strategy E": 0.0,
    "Strategy F": -13.56,
    "Strategy G": -44.36
@@ -1201,7 +1100,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -647.27,
-   "Strategy D": -928.41,
    "Strategy E": 0.0,
    "Strategy F": -14.71,
    "Strategy G": -50.68
@@ -1211,7 +1109,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.28,
    "Strategy C": -655.78,
-   "Strategy D": -930.1,
    "Strategy E": 0.0,
    "Strategy F": -14.36,
    "Strategy G": -50.68
@@ -1221,7 +1118,6 @@
    "Strategy A": 4.75,
    "Strategy B": -7.08,
    "Strategy C": -709.03,
-   "Strategy D": -939.05,
    "Strategy E": 0.0,
    "Strategy F": -13.38,
    "Strategy G": -50.68
@@ -1231,7 +1127,6 @@
    "Strategy A": 4.75,
    "Strategy B": -6.17,
    "Strategy C": -707.73,
-   "Strategy D": -947.54,
    "Strategy E": 0.0,
    "Strategy F": -13.28,
    "Strategy G": -50.68
@@ -1241,7 +1136,6 @@
    "Strategy A": 4.75,
    "Strategy B": -6.17,
    "Strategy C": -704.66,
-   "Strategy D": -936.27,
    "Strategy E": 0.0,
    "Strategy F": -13.92,
    "Strategy G": -50.68
@@ -1251,7 +1145,6 @@
    "Strategy A": 4.75,
    "Strategy B": -6.17,
    "Strategy C": -713.41,
-   "Strategy D": -958.68,
    "Strategy E": 0.0,
    "Strategy F": -14.08,
    "Strategy G": -50.68
@@ -1261,7 +1154,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -721.33,
-   "Strategy D": -985.89,
    "Strategy E": 0.0,
    "Strategy F": -14.26,
    "Strategy G": -50.68
@@ -1271,7 +1163,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -717.67,
-   "Strategy D": -975.31,
    "Strategy E": 0.0,
    "Strategy F": -13.8,
    "Strategy G": -50.68
@@ -1281,7 +1172,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -716.93,
-   "Strategy D": -926.65,
    "Strategy E": 0.0,
    "Strategy F": -15.0,
    "Strategy G": -50.68
@@ -1291,7 +1181,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -712.99,
-   "Strategy D": -892.06,
    "Strategy E": 0.0,
    "Strategy F": -14.81,
    "Strategy G": -50.68
@@ -1301,7 +1190,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -712.99,
-   "Strategy D": -849.57,
    "Strategy E": 0.0,
    "Strategy F": -20.64,
    "Strategy G": -50.68
@@ -1311,7 +1199,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -712.99,
-   "Strategy D": -707.13,
    "Strategy E": 0.0,
    "Strategy F": -17.48,
    "Strategy G": -50.68
@@ -1321,7 +1208,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -712.07,
-   "Strategy D": -707.61,
    "Strategy E": 0.0,
    "Strategy F": -15.28,
    "Strategy G": -50.68
@@ -1331,7 +1217,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.56,
-   "Strategy D": -689.87,
    "Strategy E": 0.0,
    "Strategy F": -17.59,
    "Strategy G": -50.68
@@ -1341,7 +1226,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.56,
-   "Strategy D": -3.29,
    "Strategy E": 0.0,
    "Strategy F": -18.38,
    "Strategy G": -50.68
@@ -1351,7 +1235,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": 139.36,
    "Strategy E": 0.0,
    "Strategy F": -17.4,
    "Strategy G": -50.68
@@ -1361,7 +1244,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": -83.7,
    "Strategy E": 0.0,
    "Strategy F": -17.82,
    "Strategy G": -50.68
@@ -1371,7 +1253,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": -73.72,
    "Strategy E": 0.0,
    "Strategy F": -15.7,
    "Strategy G": -50.68
@@ -1381,7 +1262,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": -34.5,
    "Strategy E": 0.0,
    "Strategy F": -16.21,
    "Strategy G": -50.68
@@ -1391,7 +1271,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": -97.21,
    "Strategy E": 0.0,
    "Strategy F": -16.13,
    "Strategy G": -50.68
@@ -1401,7 +1280,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -710.18,
-   "Strategy D": -230.63,
    "Strategy E": 0.0,
    "Strategy F": -15.76,
    "Strategy G": -50.68
@@ -1411,7 +1289,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -746.14,
-   "Strategy D": -176.68,
    "Strategy E": 0.0,
    "Strategy F": -15.1,
    "Strategy G": -62.7
@@ -1421,7 +1298,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -746.14,
-   "Strategy D": 14.5,
    "Strategy E": 0.0,
    "Strategy F": -18.84,
    "Strategy G": -63.2
@@ -1431,7 +1307,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -755.31,
-   "Strategy D": 26.82,
    "Strategy E": 0.0,
    "Strategy F": -17.51,
    "Strategy G": -63.72
@@ -1441,7 +1316,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -762.96,
-   "Strategy D": 264.1,
    "Strategy E": 0.0,
    "Strategy F": -17.56,
    "Strategy G": -61.15
@@ -1451,7 +1325,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -762.58,
-   "Strategy D": 276.86,
    "Strategy E": 0.0,
    "Strategy F": -17.02,
    "Strategy G": -61.15
@@ -1461,7 +1334,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -771.47,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -19.57,
    "Strategy G": -61.15
@@ -1471,7 +1343,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -779.87,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -17.98,
    "Strategy G": -61.15
@@ -1481,7 +1352,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -798.6,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -16.9,
    "Strategy G": -61.15
@@ -1491,7 +1361,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -808.14,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -21.11,
    "Strategy G": -61.15
@@ -1501,7 +1370,6 @@
    "Strategy A": 11.2,
    "Strategy B": -6.17,
    "Strategy C": -807.6,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -14.02,
    "Strategy G": -61.15
@@ -1511,7 +1379,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -823.38,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -14.02,
    "Strategy G": -61.15
@@ -1521,7 +1388,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -823.38,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -13.33,
    "Strategy G": -61.15
@@ -1531,7 +1397,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -12.67,
    "Strategy G": -61.15
@@ -1541,7 +1406,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -12.18,
    "Strategy G": -61.15
@@ -1551,7 +1415,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -12.63,
    "Strategy G": -61.15
@@ -1561,7 +1424,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -15.81,
    "Strategy G": -61.15
@@ -1571,7 +1433,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -16.47,
    "Strategy G": -61.15
@@ -1581,7 +1442,6 @@
    "Strategy A": 10.58,
    "Strategy B": -6.17,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -17.81,
    "Strategy G": -61.15
@@ -1591,7 +1451,6 @@
    "Strategy A": 10.58,
    "Strategy B": -7.71,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -20.13,
    "Strategy G": -61.15
@@ -1601,7 +1460,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -18.92,
    "Strategy G": -61.15
@@ -1611,7 +1469,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -20.46,
    "Strategy G": -61.15
@@ -1621,7 +1478,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -20.44,
    "Strategy G": -61.15
@@ -1631,7 +1487,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -19.39,
    "Strategy G": -61.15
@@ -1641,7 +1496,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -822.01,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -18.39,
    "Strategy G": -61.15
@@ -1651,7 +1505,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -834.33,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -17.27,
    "Strategy G": -70.5
@@ -1661,7 +1514,6 @@
    "Strategy A": 10.58,
    "Strategy B": -9.72,
    "Strategy C": -871.48,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -16.84,
    "Strategy G": -61.33
@@ -1671,7 +1523,6 @@
    "Strategy A": 10.58,
    "Strategy B": -8.39,
    "Strategy C": -871.48,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -11.01,
    "Strategy G": -69.08
@@ -1681,7 +1532,6 @@
    "Strategy A": 10.58,
    "Strategy B": -8.39,
    "Strategy C": -926.25,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -10.25,
    "Strategy G": -74.39
@@ -1691,7 +1541,6 @@
    "Strategy A": 10.58,
    "Strategy B": -8.39,
    "Strategy C": -943.37,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -10.16,
    "Strategy G": -74.39
@@ -1701,7 +1550,6 @@
    "Strategy A": 10.58,
    "Strategy B": -8.39,
    "Strategy C": -952.31,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -9.7,
    "Strategy G": -74.39
@@ -1711,10 +1559,30 @@
    "Strategy A": 10.33,
    "Strategy B": -8.39,
    "Strategy C": -971.02,
-   "Strategy D": 279.4,
    "Strategy E": 0.0,
    "Strategy F": -9.7,
    "Strategy G": -74.39
+  },
+  {
+   "t": "2026-11-05T20:00:53Z",
+   "Strategy A": 7.89,
+   "Strategy B": -8.39,
+   "Strategy C": -990.43,
+   "Strategy D": -452.1,
+   "Strategy E": 0.0,
+   "Strategy F": -9.65,
+   "Strategy G": -74.39
+  },
+  {
+   "t": "2026-11-05T20:01:02Z",
+   "Strategy A": 7.89,
+   "Strategy B": -8.39,
+   "Strategy C": -990.43,
+   "Strategy D": -452.1,
+   "Strategy E": 0.0,
+   "Strategy F": -9.65,
+   "Strategy G": -74.39
   }
- ]
+ ],
+ "d_history_fixed": true
 }
