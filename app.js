@@ -327,7 +327,8 @@
       var tr = el("tr");
       var name = el("td"); name.appendChild(setColor(el("span", { "class": "dot" }), colorOf[s.label])); name.appendChild(document.createTextNode(s.label));
       tr.appendChild(name);
-      [[usd(s.pnl, true), cls(s.pnl)], [num(s.closed), ""], [pct(s.win_rate), ""], [usd(s.max_dd), s.max_dd < 0 ? "neg" : ""]]
+      [[s.retired_on ? fmtDay(s.retired_on) : "–", ""], [usd(s.pnl, true), cls(s.pnl)], [num(s.closed), ""], [pct(s.win_rate), ""],
+       [usd(s.max_dd), s.max_dd < 0 ? "neg" : ""]]
         .forEach(function (v) { tr.appendChild(el("td", { "class": "num " + v[1] }, v[0])); });
       rBody.appendChild(tr);
     });
