@@ -200,6 +200,12 @@
     var peak = 0;
     var dd = total.map(function (v) { if (v == null) return null; peak = Math.max(peak, v); return Math.round((v - peak) * 100) / 100; });
     strategies.forEach(function (s) { s.max_dd = Math.round(maxDrawdown(seriesOf(s.label)) * 100) / 100; });
+    // Retired strategies stay in the portfolio totals (their P&L happened) but
+    // leave the per-strategy views and get their own short table.
+    var isRetired = function (s) { return s.status === "retired"; };
+    var active = strategies.filter(function (s) { return !isRetired(s); });
+    var retired = strategies.filter(isRetired);
+    var activeLabels = active.map(function (s) { return s.label; });
 
     document.getElementById("meta").textContent = "Since " + fmtTime(Date.parse(d.period_start)) + " · updated " + fmtTime(Date.parse(d.updated));
     document.getElementById("note").textContent = d.note || "";
@@ -210,7 +216,7 @@
     var pnl = sum("pnl"), realized = sum("realized"), unreal = sum("unrealized");
     var maxDD = maxDrawdown(total);
     var tiles = clear("tiles");
-    [["Total P&L", usd(pnl, true), cls(pnl), strategies.filter(function (s) { return s.pnl > 0; }).length + " of " + strategies.length + " strategies up"],
+    [["Total P&L", usd(pnl, true), cls(pnl), active.filter(function (s) { return s.pnl > 0; }).length + " of " + active.length + " active strategies up"],
      ["Realized", usd(realized, true), cls(realized), closed + " closed trades"],
      ["Open positions", usd(unreal, true), cls(unreal), sum("open") + " open now"],
      ["Win rate", pct(wins + losses ? wins / (wins + losses) : null), "", wins + " won · " + losses + " lost"],
@@ -230,7 +236,7 @@
 
     // cards
     var cards = clear("cards");
-    strategies.slice().sort(function (a, b) { return b.pnl - a.pnl; }).forEach(function (s) {
+    active.slice().sort(function (a, b) { return b.pnl - a.pnl; }).forEach(function (s) {
       var c = setColor(el("article", { "class": "card" }), colorOf[s.label]);
       var r1 = el("div", { "class": "row" });
       r1.appendChild(el("span", { "class": "name" }, s.label));
@@ -263,11 +269,11 @@
 
     // multi-strategy chart + legend
     var drawMulti = function () {
-      lineChart(clear("multi"), ts, labels.filter(function (l) { return !hidden[l]; })
+      lineChart(clear("multi"), ts, activeLabels.filter(function (l) { return !hidden[l]; })
         .map(function (l) { return { label: l, color: colorOf[l], values: seriesOf(l) }; }), { height: 300 });
     };
     var legend = clear("legend");
-    labels.forEach(function (l) {
+    activeLabels.forEach(function (l) {
       var b = setColor(el("button", { type: "button", "class": hidden[l] ? "off" : "" }, l), colorOf[l]);
       b.addEventListener("click", function () { hidden[l] = !hidden[l]; b.className = hidden[l] ? "off" : ""; drawMulti(); });
       legend.appendChild(b);
@@ -284,7 +290,7 @@
     // comparison table
     var drawCompare = function () {
       var tb = document.querySelector("#compare tbody"); tb.textContent = "";
-      var rows = strategies.slice().sort(function (a, b) {
+      var rows = active.slice().sort(function (a, b) {
         var x = a[sortKey], y = b[sortKey];
         if (x == null) return 1; if (y == null) return -1;
         var c = typeof x === "string" ? x.localeCompare(y) : x - y;
@@ -312,6 +318,19 @@
       };
     });
     drawCompare();
+
+    // retired strategies: final frozen numbers
+    document.getElementById("retired-section").hidden = !retired.length;
+    var rBody = document.querySelector("#retiredtable tbody");
+    rBody.textContent = "";
+    retired.forEach(function (s) {
+      var tr = el("tr");
+      var name = el("td"); name.appendChild(setColor(el("span", { "class": "dot" }), colorOf[s.label])); name.appendChild(document.createTextNode(s.label));
+      tr.appendChild(name);
+      [[usd(s.pnl, true), cls(s.pnl)], [num(s.closed), ""], [pct(s.win_rate), ""], [usd(s.max_dd), s.max_dd < 0 ? "neg" : ""]]
+        .forEach(function (v) { tr.appendChild(el("td", { "class": "num " + v[1] }, v[0])); });
+      rBody.appendChild(tr);
+    });
 
     // expected value of open positions (model estimate, kept apart from P&L)
     var ev = d.expected || [], evBody = document.querySelector("#evtable tbody");

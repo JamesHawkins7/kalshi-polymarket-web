@@ -84,3 +84,6 @@ footer { margin-top: 40px; font-size: 13px; color: var(--muted); }
 footer p { margin: 0 0 6px; }
 @media (max-width: 520px) { h1 { font-size: 23px; } .tile .v { font-size: 20px; } }
 .tip .l span.nodot::before { display: none; }
+
+.retired summary { cursor: pointer; font-weight: 600; font-size: 1.05rem; padding: 4px 0; }
+.retired .hint { margin: 6px 0 10px; }

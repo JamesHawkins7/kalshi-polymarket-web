@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Paper Trading Results</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <main>
@@ -103,6 +103,25 @@
     </div>
   </section>
 
+  <section id="retired-section" hidden>
+    <details class="retired">
+      <summary>Retired strategies</summary>
+      <p class="hint">Stopped and no longer trading. Their final results still count in the portfolio totals above.</p>
+      <div class="scroll">
+        <table id="retiredtable">
+          <thead><tr>
+            <th>Strategy</th>
+            <th class="num">Final P&amp;L</th>
+            <th class="num">Closed</th>
+            <th class="num">Win rate</th>
+            <th class="num">Max drawdown</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
   <section>
     <div class="head">
       <h2>Realized P&amp;L by day</h2>
@@ -119,6 +138,6 @@
   </footer>
 </main>
 <div id="tip" class="tip" hidden></div>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
