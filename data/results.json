@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:07:07Z",
+ "updated": "2026-11-08T22:07:07Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -7,15 +7,15 @@
    "label": "Eltanin",
    "status": "active",
    "pnl": 0.0,
-   "realized": 0,
+   "realized": 0.0,
    "unrealized": 0.0,
-   "open": 20,
-   "closed": 0,
+   "open": 18,
+   "closed": 2,
    "wins": 0,
    "losses": 0,
-   "flat": 0,
+   "flat": 2,
    "win_rate": null,
-   "avg_trade": null,
+   "avg_trade": 0.0,
    "avg_win": null,
    "avg_loss": null,
    "profit_factor": null
@@ -139,6 +139,7 @@
  "daily_realized": [
   {
    "d": "2026-11-08",
+   "Eltanin": 0.0,
    "Sirius": 0.66,
    "Kochab": -4.6
   }
@@ -2313,6 +2314,16 @@
   },
   {
    "t": "2026-11-08T21:07:07Z",
+   "Eltanin": 0.0,
+   "Mira": 0.0,
+   "Sirius": 0.66,
+   "Zosma": 0.0,
+   "Regulus": 0.0,
+   "Rasalhague": -37.36,
+   "Kochab": -4.6
+  },
+  {
+   "t": "2026-11-08T22:07:07Z",
    "Eltanin": 0.0,
    "Mira": 0.0,
    "Sirius": 0.66,
