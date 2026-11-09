@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T19:07:07Z",
+ "updated": "2026-11-09T20:07:07Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -39.44,
+   "pnl": -39.0,
    "realized": 0,
-   "unrealized": -39.44,
+   "unrealized": -39.0,
    "open": 11,
    "closed": 0,
    "wins": 0,
@@ -74,35 +74,35 @@
   {
    "label": "Regulus",
    "status": "active",
-   "pnl": 0.0,
-   "realized": 0,
+   "pnl": 1.25,
+   "realized": 1.25,
    "unrealized": 0.0,
-   "open": 5,
-   "closed": 0,
-   "wins": 0,
+   "open": 4,
+   "closed": 1,
+   "wins": 1,
    "losses": 0,
    "flat": 0,
-   "win_rate": null,
-   "avg_trade": null,
-   "avg_win": null,
+   "win_rate": 1.0,
+   "avg_trade": 1.25,
+   "avg_win": 1.25,
    "avg_loss": null,
    "profit_factor": null
   },
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -226.47,
-   "realized": -226.47,
+   "pnl": -244.61,
+   "realized": -244.61,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 86,
+   "closed": 88,
    "wins": 51,
-   "losses": 26,
+   "losses": 28,
    "flat": 9,
-   "win_rate": 0.6623,
-   "avg_trade": -2.63,
+   "win_rate": 0.6456,
+   "avg_trade": -2.78,
    "avg_win": 0.41,
-   "avg_loss": -9.52,
+   "avg_loss": -9.48,
    "profit_factor": 0.08
   },
   {
@@ -132,8 +132,8 @@
   },
   {
    "label": "Regulus",
-   "open": 5,
-   "ev_open": 0.79
+   "open": 4,
+   "ev_open": 0.44
   }
  ],
  "daily_realized": [
@@ -146,7 +146,8 @@
   {
    "d": "2026-11-09",
    "Eltanin": 0.0,
-   "Sirius": -201.39,
+   "Sirius": -219.53,
+   "Regulus": 1.25,
    "Kochab": -5.63
   }
  ],
@@ -2546,6 +2547,16 @@
    "Zosma": 0.0,
    "Regulus": 0.0,
    "Rasalhague": -39.44,
+   "Kochab": -10.23
+  },
+  {
+   "t": "2026-11-09T20:07:07Z",
+   "Eltanin": 0.0,
+   "Mira": 0.0,
+   "Sirius": -244.61,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -39.0,
    "Kochab": -10.23
   }
  ]
