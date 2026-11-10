@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T21:07:07Z",
+ "updated": "2026-11-10T22:07:07Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -10,10 +10,10 @@
    "realized": 0.0,
    "unrealized": 0.0,
    "open": 20,
-   "closed": 40,
+   "closed": 42,
    "wins": 0,
    "losses": 0,
-   "flat": 40,
+   "flat": 42,
    "win_rate": null,
    "avg_trade": 0.0,
    "avg_win": null,
@@ -43,13 +43,13 @@
    "pnl": 0.8,
    "realized": 0.8,
    "unrealized": 0.0,
-   "open": 9,
-   "closed": 1,
+   "open": 7,
+   "closed": 3,
    "wins": 1,
    "losses": 0,
-   "flat": 0,
+   "flat": 2,
    "win_rate": 1.0,
-   "avg_trade": 0.8,
+   "avg_trade": 0.27,
    "avg_win": 0.8,
    "avg_loss": null,
    "profit_factor": null
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -38.1,
+   "pnl": -38.36,
    "realized": -36.83,
-   "unrealized": -1.27,
+   "unrealized": -1.53,
    "open": 7,
    "closed": 6,
    "wins": 0,
@@ -91,19 +91,19 @@
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -439.99,
-   "realized": -439.99,
+   "pnl": -446.15,
+   "realized": -446.15,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 219,
-   "wins": 146,
-   "losses": 53,
+   "closed": 227,
+   "wins": 153,
+   "losses": 54,
    "flat": 20,
-   "win_rate": 0.7337,
-   "avg_trade": -2.01,
+   "win_rate": 0.7391,
+   "avg_trade": -1.97,
    "avg_win": 0.42,
-   "avg_loss": -9.45,
-   "profit_factor": 0.12
+   "avg_loss": -9.46,
+   "profit_factor": 0.13
   },
   {
    "label": "Zosma",
@@ -155,7 +155,7 @@
    "d": "2026-11-10",
    "Eltanin": 0.0,
    "Mira": 0.8,
-   "Sirius": -157.87,
+   "Sirius": -164.03,
    "Kochab": -24.65
   }
  ],
@@ -2815,6 +2815,16 @@
    "Zosma": 0.0,
    "Regulus": 1.25,
    "Rasalhague": -38.1,
+   "Kochab": -34.88
+  },
+  {
+   "t": "2026-11-10T22:07:07Z",
+   "Eltanin": 0.0,
+   "Mira": 0.8,
+   "Sirius": -446.15,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -38.36,
    "Kochab": -34.88
   }
  ]
