@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:07:00Z",
+ "updated": "2026-11-18T14:07:01Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -23,19 +23,19 @@
   {
    "label": "Kochab",
    "status": "active",
-   "pnl": -5.07,
-   "realized": -5.07,
+   "pnl": -15.3,
+   "realized": -15.3,
    "unrealized": 0.0,
-   "open": 24,
-   "closed": 144,
+   "open": 20,
+   "closed": 148,
    "wins": 38,
-   "losses": 106,
+   "losses": 110,
    "flat": 0,
-   "win_rate": 0.2639,
-   "avg_trade": -0.04,
+   "win_rate": 0.2568,
+   "avg_trade": -0.1,
    "avg_win": 5.23,
-   "avg_loss": -1.92,
-   "profit_factor": 0.98
+   "avg_loss": -1.95,
+   "profit_factor": 0.93
   },
   {
    "label": "Mira",
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -48.49,
+   "pnl": -50.53,
    "realized": -39.02,
-   "unrealized": -9.47,
+   "unrealized": -11.51,
    "open": 6,
    "closed": 9,
    "wins": 1,
@@ -91,17 +91,17 @@
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -1339.18,
-   "realized": -1339.18,
+   "pnl": -1336.27,
+   "realized": -1336.27,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 760,
-   "wins": 538,
+   "closed": 768,
+   "wins": 546,
    "losses": 166,
    "flat": 56,
-   "win_rate": 0.7642,
-   "avg_trade": -1.76,
-   "avg_win": 0.45,
+   "win_rate": 0.7669,
+   "avg_trade": -1.74,
+   "avg_win": 0.44,
    "avg_loss": -9.51,
    "profit_factor": 0.15
   },
@@ -127,8 +127,8 @@
  "expected": [
   {
    "label": "Kochab",
-   "open": 24,
-   "ev_open": 62.59
+   "open": 20,
+   "ev_open": 49.08
   },
   {
    "label": "Regulus",
@@ -211,8 +211,8 @@
    "d": "2026-11-18",
    "Eltanin": 0.0,
    "Mira": 0.03,
-   "Sirius": -31.14,
-   "Kochab": -7.27
+   "Sirius": -28.23,
+   "Kochab": -17.5
   }
  ],
  "history": [
@@ -4712,6 +4712,16 @@
    "Regulus": 1.25,
    "Rasalhague": -48.49,
    "Kochab": -5.07
+  },
+  {
+   "t": "2026-11-18T14:07:01Z",
+   "Eltanin": 1.29,
+   "Mira": -3.14,
+   "Sirius": -1336.27,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -50.53,
+   "Kochab": -15.3
   }
  ]
 }
