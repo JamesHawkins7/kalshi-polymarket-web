@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:07:00Z",
+ "updated": "2026-11-19T22:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -9,11 +9,11 @@
    "pnl": 2.75,
    "realized": 2.75,
    "unrealized": 0.0,
-   "open": 20,
-   "closed": 192,
+   "open": 16,
+   "closed": 196,
    "wins": 3,
    "losses": 1,
-   "flat": 188,
+   "flat": 192,
    "win_rate": 0.75,
    "avg_trade": 0.01,
    "avg_win": 1.39,
@@ -40,26 +40,26 @@
   {
    "label": "Mira",
    "status": "active",
-   "pnl": 16.9,
-   "realized": 16.9,
+   "pnl": 15.89,
+   "realized": 15.89,
    "unrealized": 0.0,
-   "open": 5,
-   "closed": 52,
+   "open": 4,
+   "closed": 53,
    "wins": 29,
-   "losses": 15,
+   "losses": 16,
    "flat": 8,
-   "win_rate": 0.6591,
-   "avg_trade": 0.32,
+   "win_rate": 0.6444,
+   "avg_trade": 0.3,
    "avg_win": 1.38,
-   "avg_loss": -1.53,
-   "profit_factor": 1.74
+   "avg_loss": -1.5,
+   "profit_factor": 1.66
   },
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -64.89,
+   "pnl": -64.84,
    "realized": -39.02,
-   "unrealized": -25.87,
+   "unrealized": -25.82,
    "open": 6,
    "closed": 9,
    "wins": 1,
@@ -91,16 +91,16 @@
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -1632.07,
-   "realized": -1632.07,
+   "pnl": -1669.47,
+   "realized": -1669.47,
    "unrealized": 0.0,
-   "open": 48,
-   "closed": 925,
+   "open": 44,
+   "closed": 929,
    "wins": 666,
-   "losses": 203,
+   "losses": 207,
    "flat": 56,
-   "win_rate": 0.7664,
-   "avg_trade": -1.76,
+   "win_rate": 0.7629,
+   "avg_trade": -1.8,
    "avg_win": 0.45,
    "avg_loss": -9.51,
    "profit_factor": 0.15
@@ -217,8 +217,8 @@
   {
    "d": "2026-11-19",
    "Eltanin": 2.87,
-   "Mira": 28.72,
-   "Sirius": -132.4,
+   "Mira": 27.71,
+   "Sirius": -169.8,
    "Kochab": -22.69
   }
  ],
@@ -5038,6 +5038,16 @@
    "Zosma": 0.0,
    "Regulus": 1.25,
    "Rasalhague": -64.89,
+   "Kochab": -46.61
+  },
+  {
+   "t": "2026-11-19T22:07:00Z",
+   "Eltanin": 2.75,
+   "Mira": 15.89,
+   "Sirius": -1669.47,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -64.84,
    "Kochab": -46.61
   }
  ]
