@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:07:01Z",
+ "updated": "2026-11-22T01:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -26,7 +26,7 @@
    "pnl": -68.83,
    "realized": -68.83,
    "unrealized": 0.0,
-   "open": 27,
+   "open": 28,
    "closed": 196,
    "wins": 46,
    "losses": 150,
@@ -127,8 +127,8 @@
  "expected": [
   {
    "label": "Kochab",
-   "open": 27,
-   "ev_open": 69.43
+   "open": 28,
+   "ev_open": 70.63
   },
   {
    "label": "Regulus",
@@ -5555,6 +5555,16 @@
   },
   {
    "t": "2026-11-22T00:07:01Z",
+   "Eltanin": 2.75,
+   "Mira": 13.81,
+   "Sirius": -1831.44,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -75.56,
+   "Kochab": -68.83
+  },
+  {
+   "t": "2026-11-22T01:07:00Z",
    "Eltanin": 2.75,
    "Mira": 13.81,
    "Sirius": -1831.44,
