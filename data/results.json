@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:07:00Z",
+ "updated": "2026-11-22T11:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -5659,6 +5659,16 @@
   },
   {
    "t": "2026-11-22T10:07:00Z",
+   "Eltanin": 2.75,
+   "Mira": 13.81,
+   "Sirius": -1830.6,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -77.38,
+   "Kochab": -68.83
+  },
+  {
+   "t": "2026-11-22T11:07:00Z",
    "Eltanin": 2.75,
    "Mira": 13.81,
    "Sirius": -1830.6,
