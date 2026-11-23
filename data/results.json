@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T11:07:00Z",
+ "updated": "2026-11-23T12:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -43,7 +43,7 @@
    "pnl": 12.6,
    "realized": 12.6,
    "unrealized": 0.0,
-   "open": 1,
+   "open": 2,
    "closed": 59,
    "wins": 30,
    "losses": 20,
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -76.58,
+   "pnl": -76.15,
    "realized": -39.02,
-   "unrealized": -37.56,
+   "unrealized": -37.14,
    "open": 6,
    "closed": 9,
    "wins": 1,
@@ -5922,6 +5922,16 @@
    "Zosma": 0.0,
    "Regulus": 1.25,
    "Rasalhague": -76.58,
+   "Kochab": -68.91
+  },
+  {
+   "t": "2026-11-23T12:07:00Z",
+   "Eltanin": 2.75,
+   "Mira": 12.6,
+   "Sirius": -1852.58,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -76.15,
    "Kochab": -68.91
   }
  ]
