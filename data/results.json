@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:07:00Z",
+ "updated": "2026-11-24T15:07:01Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -40,27 +40,27 @@
   {
    "label": "Mira",
    "status": "active",
-   "pnl": 8.37,
-   "realized": 8.37,
+   "pnl": 8.62,
+   "realized": 8.62,
    "unrealized": 0.0,
-   "open": 5,
-   "closed": 66,
-   "wins": 35,
+   "open": 4,
+   "closed": 67,
+   "wins": 36,
    "losses": 22,
    "flat": 9,
-   "win_rate": 0.614,
+   "win_rate": 0.6207,
    "avg_trade": 0.13,
-   "avg_win": 1.24,
+   "avg_win": 1.21,
    "avg_loss": -1.59,
-   "profit_factor": 1.24
+   "profit_factor": 1.25
   },
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -79.06,
+   "pnl": -78.81,
    "realized": -46.6,
-   "unrealized": -32.46,
-   "open": 6,
+   "unrealized": -32.21,
+   "open": 7,
    "closed": 10,
    "wins": 1,
    "losses": 9,
@@ -91,15 +91,15 @@
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -2010.24,
-   "realized": -2010.24,
+   "pnl": -2034.56,
+   "realized": -2034.56,
    "unrealized": 0.0,
-   "open": 60,
-   "closed": 1131,
-   "wins": 815,
-   "losses": 250,
+   "open": 58,
+   "closed": 1141,
+   "wins": 822,
+   "losses": 253,
    "flat": 66,
-   "win_rate": 0.7653,
+   "win_rate": 0.7647,
    "avg_trade": -1.78,
    "avg_win": 0.45,
    "avg_loss": -9.5,
@@ -251,8 +251,8 @@
   },
   {
    "d": "2026-11-24",
-   "Mira": -0.75,
-   "Sirius": -42.51,
+   "Mira": -0.5,
+   "Sirius": -66.83,
    "Kochab": -5.02
   }
  ],
@@ -6202,6 +6202,16 @@
    "Zosma": 0.0,
    "Regulus": 1.25,
    "Rasalhague": -79.06,
+   "Kochab": -113.47
+  },
+  {
+   "t": "2026-11-24T15:07:01Z",
+   "Eltanin": 2.75,
+   "Mira": 8.62,
+   "Sirius": -2034.56,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -78.81,
    "Kochab": -113.47
   }
  ]
