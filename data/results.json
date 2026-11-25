@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:07:00Z",
+ "updated": "2026-11-25T15:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -23,19 +23,19 @@
   {
    "label": "Kochab",
    "status": "active",
-   "pnl": -136.86,
-   "realized": -136.86,
+   "pnl": -132.06,
+   "realized": -132.06,
    "unrealized": 0.0,
-   "open": 17,
-   "closed": 248,
-   "wins": 56,
-   "losses": 192,
+   "open": 15,
+   "closed": 250,
+   "wins": 57,
+   "losses": 193,
    "flat": 0,
-   "win_rate": 0.2258,
-   "avg_trade": -0.55,
-   "avg_win": 5.07,
-   "avg_loss": -2.19,
-   "profit_factor": 0.67
+   "win_rate": 0.228,
+   "avg_trade": -0.53,
+   "avg_win": 5.06,
+   "avg_loss": -2.18,
+   "profit_factor": 0.69
   },
   {
    "label": "Mira",
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -73.85,
+   "pnl": -74.37,
    "realized": -44.6,
-   "unrealized": -29.25,
+   "unrealized": -29.78,
    "open": 5,
    "closed": 12,
    "wins": 2,
@@ -91,13 +91,13 @@
   {
    "label": "Sirius",
    "status": "active",
-   "pnl": -2156.76,
-   "realized": -2156.76,
+   "pnl": -2180.11,
+   "realized": -2180.11,
    "unrealized": 0.0,
    "open": 60,
-   "closed": 1247,
-   "wins": 909,
-   "losses": 270,
+   "closed": 1260,
+   "wins": 919,
+   "losses": 273,
    "flat": 68,
    "win_rate": 0.771,
    "avg_trade": -1.73,
@@ -127,8 +127,8 @@
  "expected": [
   {
    "label": "Kochab",
-   "open": 17,
-   "ev_open": 34.16
+   "open": 15,
+   "ev_open": 30.94
   },
   {
    "label": "Regulus",
@@ -260,8 +260,8 @@
   {
    "d": "2026-11-25",
    "Mira": -1.19,
-   "Sirius": -38.46,
-   "Kochab": -29.19
+   "Sirius": -61.82,
+   "Kochab": -24.39
   }
  ],
  "history": [
@@ -6451,6 +6451,16 @@
    "Regulus": 1.25,
    "Rasalhague": -73.85,
    "Kochab": -136.86
+  },
+  {
+   "t": "2026-11-25T15:07:00Z",
+   "Eltanin": 2.75,
+   "Mira": 9.08,
+   "Sirius": -2180.11,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -74.37,
+   "Kochab": -132.06
   }
  ]
 }
