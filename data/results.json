@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:07:00Z",
+ "updated": "2026-11-26T22:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -43,7 +43,7 @@
    "pnl": 4.86,
    "realized": 4.86,
    "unrealized": 0.0,
-   "open": 4,
+   "open": 5,
    "closed": 87,
    "wins": 43,
    "losses": 34,
@@ -6762,6 +6762,16 @@
   },
   {
    "t": "2026-11-26T21:07:00Z",
+   "Eltanin": 2.75,
+   "Mira": 4.86,
+   "Sirius": -2530.33,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -71.11,
+   "Kochab": -134.63
+  },
+  {
+   "t": "2026-11-26T22:07:00Z",
    "Eltanin": 2.75,
    "Mira": 4.86,
    "Sirius": -2530.33,
