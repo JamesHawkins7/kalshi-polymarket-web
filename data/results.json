@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:07:00Z",
+ "updated": "2026-11-28T13:07:00Z",
  "period_start": "2026-10-30T14:55:53Z",
  "note": "Paper trading only. Hypothetical P&L in USD since the ledgers were last reset.",
  "strategies": [
@@ -23,19 +23,19 @@
   {
    "label": "Kochab",
    "status": "active",
-   "pnl": -121.38,
-   "realized": -121.38,
+   "pnl": -99.62,
+   "realized": -99.62,
    "unrealized": 0.0,
-   "open": 26,
-   "closed": 280,
-   "wins": 67,
-   "losses": 213,
+   "open": 16,
+   "closed": 290,
+   "wins": 72,
+   "losses": 218,
    "flat": 0,
-   "win_rate": 0.2393,
-   "avg_trade": -0.43,
-   "avg_win": 4.95,
-   "avg_loss": -2.13,
-   "profit_factor": 0.73
+   "win_rate": 0.2483,
+   "avg_trade": -0.34,
+   "avg_win": 5.02,
+   "avg_loss": -2.11,
+   "profit_factor": 0.78
   },
   {
    "label": "Mira",
@@ -57,9 +57,9 @@
   {
    "label": "Rasalhague",
    "status": "active",
-   "pnl": -71.75,
+   "pnl": -71.69,
    "realized": -41.22,
-   "unrealized": -30.53,
+   "unrealized": -30.47,
    "open": 4,
    "closed": 13,
    "wins": 3,
@@ -127,8 +127,8 @@
  "expected": [
   {
    "label": "Kochab",
-   "open": 26,
-   "ev_open": 59.5
+   "open": 16,
+   "ev_open": 38.33
   },
   {
    "label": "Regulus",
@@ -283,7 +283,8 @@
    "d": "2026-11-28",
    "Eltanin": 0.0,
    "Mira": 0.0,
-   "Sirius": 1.85
+   "Sirius": 1.85,
+   "Kochab": 21.76
   }
  ],
  "history": [
@@ -7173,6 +7174,16 @@
    "Regulus": 1.25,
    "Rasalhague": -71.75,
    "Kochab": -121.38
+  },
+  {
+   "t": "2026-11-28T13:07:00Z",
+   "Eltanin": 6.07,
+   "Mira": 2.26,
+   "Sirius": -2622.57,
+   "Zosma": 0.0,
+   "Regulus": 1.25,
+   "Rasalhague": -71.69,
+   "Kochab": -99.62
   }
  ]
 }
